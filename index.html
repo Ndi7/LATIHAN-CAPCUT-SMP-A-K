@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html lang="id">
 <head>
@@ -10,7 +9,7 @@
     body {
       margin: 0;
       font-family: 'Segoe UI', Tahoma, sans-serif;
-      background: linear-gradient(135deg, #0f3d2e, #1f7a5a, #4caf7a);
+      background: #000000;
       color: #ffffff;
       min-height: 100vh;
       display: flex;
@@ -21,22 +20,22 @@
     .container {
       width: 92%;
       max-width: 700px;
-      background: rgba(255,255,255,0.12);
+      background: rgba(255,255,255,0.08);
       backdrop-filter: blur(10px);
       border-radius: 18px;
       padding: 32px;
-      box-shadow: 0 20px 40px rgba(0,0,0,0.25);
+      box-shadow: 0 20px 40px rgba(255,255,255,0.15);
     }
 
     h1 {
       text-align: center;
       margin-top: 0;
-      color: #e6fff3;
+      color: #ffffff;
     }
 
     p {
       text-align: center;
-      color: #d9f7ea;
+      color: #cccccc;
       margin-bottom: 30px;
     }
 
@@ -48,20 +47,20 @@
 
     .card {
       text-decoration: none;
-      color: #ffffff;
-      background: linear-gradient(135deg, #2ecc71, #27ae60);
+      color: #000000;
+      background: #ffffff;
       border-radius: 18px;
       padding: 36px 20px;
       text-align: center;
       font-size: 1.4rem;
       font-weight: 700;
-      box-shadow: 0 15px 30px rgba(0,0,0,0.3);
+      box-shadow: 0 15px 30px rgba(255,255,255,0.2);
       transition: transform 0.25s ease, box-shadow 0.25s ease;
     }
 
     .card:hover {
       transform: translateY(-6px);
-      box-shadow: 0 22px 44px rgba(0,0,0,0.4);
+      box-shadow: 0 22px 44px rgba(255,255,255,0.3);
     }
 
     .card span {
@@ -69,14 +68,14 @@
       font-size: 1rem;
       font-weight: 400;
       margin-top: 10px;
-      color: #eafff5;
+      color: #333333;
     }
 
     footer {
       margin-top: 28px;
       text-align: center;
       font-size: 0.85rem;
-      color: #c9f2e0;
+      color: #aaaaaa;
     }
 
     @media (max-width: 640px) {
@@ -93,24 +92,14 @@
     <p>Pilih materi untuk mulai latihan editing</p>
 
     <div class="cards">
-      <a href="https://drive.google.com/drive/folders/xxxx" class="card">
+      <a href="dasar.html" class="card">
         📹 Dasar
         <span>Latihan CapCut Pemula</span>
       </a>
 
-      <a href="https://drive.google.com/drive/folders/yyyy" class="card">
+      <a href="lanjutan.html" class="card">
         🎞️ Lanjutan
         <span>Latihan CapCut Tingkat Lanjut</span>
-      </a>
-
-      <a href="https://drive.google.com/drive/folders/zzzz" class="card">
-        🎶 Musik & Efek
-        <span>Latihan Editing Audio</span>
-      </a>
-
-      <a href="https://drive.google.com/drive/folders/aaaa" class="card">
-        🌟 Kreatif
-        <span>Latihan Transisi & Visual</span>
       </a>
     </div>
 
